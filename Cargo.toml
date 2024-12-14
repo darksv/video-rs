@@ -23,3 +23,6 @@ url = "2"
 
 [package.metadata.docs.rs]
 all-features = true
+
+[features]
+rpi = ["ffmpeg-next/rpi"]
